@@ -1,11 +1,15 @@
 = KalkulatorPPh22 =
 
-*Pokok Masalah 
+*Pokok Masalah* 
+
 Membangun aplikasi perhitungan pph pasal 22
-*Batasan
+*Batasan*
+
 KalkulatorPPh22 adalah aplikasi dan layanan web sumber dan isi terbuka untuk 
 menghitung PPh pasal 22.
+
 Aplikasi meyediakan daftar tingkat pajak sesuai barang yang kena pajak
+
 Aplikasi hanya menghitung pph 22 dari barang yang sudah di list
 
 == Pengembang ==
