@@ -21,12 +21,12 @@ Aplikasi hanya menghitung pph 22 dari barang yang sudah di list
 == Development Tools ==
 
 * Prinsip dasar tampilan dan kode adalah sederhana dan mudah
-* Bahasa pemrograman yang digunakan untuk membuat aplikasi ini adalah javascript
+* Bahasa pemrograman yang digunakan untuk membuat aplikasi ini adalah php
 * Database server yang digunakan adalah MongoDB
 
 == Instalasi Development Tools ==
 
-* Menggunakan visual Studio Code, git, node.js, mongoDB
+* Menggunakan visual Studio Code, git, 
 * Tools dapat di install pada sistem operasi berbasis windows,
 
 == Cara Menjalankan ==
@@ -37,4 +37,4 @@ Aplikasi hanya menghitung pph 22 dari barang yang sudah di list
 
 == Lisensi aplikasi ==
 
-https://www.mongodb.com/community/licensing
+http://igos.co.id/XAMPP#Lisensi
