@@ -38,3 +38,9 @@ Aplikasi hanya menghitung pph 22 dari barang yang sudah di list
 == Lisensi aplikasi ==
 
 http://igos.co.id/XAMPP#Lisensi
+
+== 07 Mei 2018 ==
+
+* Membuat form input pengguna
+* Memebuat form untuk perhitungan serta membuat template
+* Membuat koneksi ke database
