@@ -341,3 +341,11 @@ $sqlTabelBarang = "create table if not exists barang(
 mysqli_query($kon, $sqlTabelBarang) or die("Gagal Buat Tabel Barang");
 echo "Tabel Barang Siap <hr/>" ;
 ?>
+
+== 21 Mei 2018 ==
+
+* Memasukkan data perhitungan PPN 22 ke database
+* Menambah tombol simpan pada file barang
+
+
+
