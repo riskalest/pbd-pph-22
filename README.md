@@ -2,7 +2,7 @@
 
 *Pokok Masalah* 
 
-Membangun aplikasi perhitungan pph pasal 22
+Membangun aplikasi perhitungan pph pasal 22 atas Penjualan Hasil Produksi
 
 *Batasan*
 
@@ -22,7 +22,7 @@ Aplikasi hanya menghitung pph 22 dari barang yang sudah di list
 
 * Prinsip dasar tampilan dan kode adalah sederhana dan mudah
 * Bahasa pemrograman yang digunakan untuk membuat aplikasi ini adalah php
-* Database server yang digunakan adalah MongoDB
+* Database server yang digunakan adalah Mysql
 
 == Instalasi Development Tools ==
 
