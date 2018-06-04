@@ -64,4 +64,10 @@ http://igos.co.id/XAMPP#Lisensi
   ## pph22.php 
   ## template_atas.php
 
+== 04 Juni 2018 ==
+
+* Menghitung PPH 22
+  ## barang.php
+* Mengambil data dari database
+  ## ratepajak.php
 
