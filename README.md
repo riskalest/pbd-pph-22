@@ -56,5 +56,12 @@ http://igos.co.id/XAMPP#Lisensi
 * Menambah tombol simpan pada file barang
   ## barang.php
 
+== 28 Mei 2018 ==
+
+* Mengatur CSS
+  ## atyle.css
+* Menambah link menu 
+  ## pph22.php 
+  ## template_atas.php
 
 
