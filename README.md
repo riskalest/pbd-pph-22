@@ -71,3 +71,25 @@ http://igos.co.id/XAMPP#Lisensi
 * Mengambil data dari database
   ## ratepajak.php
 
+
+== 25 Juni 2018 ==
+
+* Menghitung PPH 22
+  ## barang.php
+  ## simpan.php
+  ## proses_barang.php
+  ## barang_simpan.php
+  
+* Mengambil data dari database
+  ## ratepajak.php
+  
+* Menambahkan animasi tampilan web
+  ## animasi.gif
+  ## kalkulator.gif
+
+* Menambah tabel untuk menyimpan data perhitungan
+  ## koneksi.php
+  
+* Mengambil data seluruh perhitungan yang telah dilakukan dari database untuk laporan 
+  ## laporan_perhitungan.php
+  
