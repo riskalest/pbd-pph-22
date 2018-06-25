@@ -1,0 +1,131 @@
+* {margin:0; padding:0;}
+ 
+body {
+	background-color:blue;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFF;
+	height: 190px;
+}
+.wrap{
+    width: 800px;
+	height: 420px;
+	margin: auto;
+	background-color: white;
+	border-radius: 10px;
+	border: 2px double #000 ;
+	position:relatif;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+} 
+.header {
+    background-image: url('header.jpg');
+	height: 100px;
+	margin-top: -20px;
+}
+.header h1{
+	color: black;
+	padding: 40px 0px 0px 20px;
+	text-shadow: #fff 1px 1px 3px;
+	text-align: center;
+	font-family: Comics Sans MS;
+}
+.menu-wrap {
+	background-color:#53bd84; 
+	height:50px; 
+	line-height:50px; 
+	position:relative;
+	width:800px;
+	margin:auto;
+	margin-top:0px;
+}
+ 
+.menu-wrap ul {
+	list-style:none;
+}
+ 
+.menu-wrap ul li a {
+	float:right; 
+	width:150px; 
+	display:block; 
+	text-align:center; 
+	color:#FFF; 
+	text-decoration:none; 
+	text-transform:uppercase;
+}
+ 
+.menu-wrap ul li a:hover {
+	background-color:blue; 
+	display:block;
+	width:150px;
+}
+ 
+.menu-wrap ul li:hover ul {
+	display:block;
+	width:150px;
+}
+ 
+.menu-wrap ul ul {
+	display:none; 
+	list-style:none; 
+	position:absolute; 
+	background-color:#53bd84;
+	left:350px; 
+	top:50px; 
+	width:150px;
+}
+ 
+.menu-wrap ul ul li a {
+	float:none; 
+	display:block; 
+	padding-left:30px; 
+	text-align:left; 
+	width:200px;
+}
+ 
+.menu-wrap ul ul li a:hover {
+	color:#FFF;
+	width:120px;
+}
+.konten{
+	margin-top:0pt;
+	padding: 10px;
+	width: 690px;
+	float: left-side;
+	font-size: 5pt;
+	margin: 0pt;
+	color: blue;
+}
+.form table{
+	padding: 7px;
+	width: 50px;
+	float: left-side;
+	font-size: 8pt;
+	margin: 3px;
+	color: black;
+	height: 100px;
+	margin: auto;
+	background-color: red;
+}
+.halo{
+	float: right-side;
+	
+}
+.footer{
+	background-color: aqua;
+	height: 85px;
+	width: 100%;
+	margin: 0px 0px;
+	margin-top:150px;
+	position:absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+}
+.footer .text{
+	color: blue;
+	padding: 25px;
+	text-align: left-side;
+	font-size: 10pt;
+	text-shadow: white;
+}
