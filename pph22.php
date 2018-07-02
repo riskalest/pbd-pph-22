@@ -15,7 +15,7 @@
   <div class="menu-wrap">
 	<ul>
 		<li><a href="index.php">Beranda</a></li>
-		<li><a href="tentang_pph22.php">Tentang Kami</a></li>
+		<li><a href="tentang_pph22.php">Tentang PPH 22</a></li>
 		<li><a href="index.php">PPH 22 Hasil</a>
 			<ul>
 				<li><a href="ratepajak.php">Tarif PPH 22</a></li>
