@@ -105,4 +105,6 @@ http://igos.co.id/XAMPP#Lisensi
   == 30 Juli 2018 ==
 
 * Mengupdate program perhitungan
-  ## pada program yang diupdate ini saya menggunakan php, dengan boostrap, serta sedikit javascript
+  ## pada program yang diupdate ini saya menggunakan php, dengan boostrap, serta javascript. Sehingga saya menambahkan file : 
+  ## jquery.min
+  ## serta folder boostrap
