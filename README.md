@@ -104,8 +104,5 @@ http://igos.co.id/XAMPP#Lisensi
   
   == 30 Juli 2018 ==
 
-* Menghitung PPH 22
-  ## barang.php
-  ## simpan.php
-  ## proses_barang.php
-  ## barang_simpan.php
+* Mengupdate program perhitungan
+  ## pada program yang diupdate ini saya menggunakan php, dengan boostrap, serta sedikit javascript
