@@ -102,3 +102,10 @@ http://igos.co.id/XAMPP#Lisensi
   ## barang_simpan.php
   
   
+  == 30 Juli 2018 ==
+
+* Menghitung PPH 22
+  ## barang.php
+  ## simpan.php
+  ## proses_barang.php
+  ## barang_simpan.php
