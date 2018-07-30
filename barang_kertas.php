@@ -45,9 +45,11 @@
 			  <ul class="nav navbar-nav">
 				<li class="active"><a href="tentang_pph22.php">Tentang PPH 22 <span class="sr-only">(current)</span></a></li>
 				<li class="dropdown">
-				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PPH 22 hasil produksi <span class="caret"></span></a>
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PPH 22 hasil produksi<span class="caret"></span></a>
 				  <ul class="dropdown-menu">
 					<li><a href="ratepajak.php">Tarif PPH 22</a></li>
+					<li><a href="laporan_perhitungan.php">Laporan perhitungan</a></li>
+					<li><a href="barang_kertas.php">Lain-lain</a></li>
 				  </ul>
 				</li>
 			  </ul>
@@ -63,45 +65,59 @@
 	</div>
 	<div class="container">
 		<div id="main-content" class="col-sm-8">
-			<h3>Apa itu PPH 22?</h3>
-			<div style="padding:0px;overflow:auto;width:auto;height:300px;border:2px solid grey" >
-			   <form method="post" action="login_proses.php">
-					Pajak Penghasilan Pasal 22 </br>
-					Apa yang dimaksud dengan PPh Pasal 22? </br>
-					Pajak Penghasilan Pasal 22 adalah pajak yang dipungut oleh bendaharawan pemerintah, sehubungan dengan pembayaran atas penyerahan barang dan badan-badan tertentu untuk memungut pajak dari Wajib Pajak yang melakukan kegiatan di bidang impor atau kegiatan usaha di bidang lain.</br>
-					Pemungutan pajak berdasarkan ketentuan ini, dimaksudkan untuk meningkatkan peran serta masyrakat dalam pengumpulan dana melalui sistem pembayaran pajak dan untuk tujuan kesederhanaan, kemudahan, dan pengenaan pajak yang tepat waktu.</br>
-					Dalam hubungan ini, Menteri Keuangan menetapkan besarnya pungutan yang dapat bersifat final. Pelaksanaan ketentuan ini ditetapkan oleh Menteri Keuangan dengan mempertimbangkan antara lain:</br>
-					Penunjukkan pemungut pajak secara selektif, demi pelaksanaan pemungutan pajak secara efektif dan efisien,</br>
-					Tidak mengganggu kelancaran lalu lintas barang;</br>
-					Prosedur pemungutan, penyetoran, dan pelaporan yang sederhana sehingga mudah dilaksanakan.</br></br>
-					
-					Siapa pemungut PPh Pasal 22?</br>
+		<div class="hovereffect">
+					<img class="img-responsive" src="kertas.jpg" width="100%" alt="">
+					<div class="overlay">
+					<h2>								
+					PPh Pasal 22 Kertas</br>	
 
-					1. Badan usaha yang bergerak di bidang industri semen, industri rokok, industri kertas, industri baja dan industri otomotif, yang ditunjuk oleh Kepala Kantor Pelayanan Pajak, atas penjualan hasil produksinya di dalam negeri;</br>
-					2. Pertamina dan badan usaha selain Pertamina yang bergerak di bidang bahan bakar minyak jenis premix dan gas, atas penjualan hasil produksinya;</br></br>
-					
-					Berapakah besarnya pungutan PPh Pasal 22 atas penjualan hasil produksi yang dilakukan badan usaha yang bergerak di bidang industri semen, rokok kretek/ putih, kertas, baja otomotif ?</br>
-					Atas penjualan hasil produksi yang dilakukan oleh badan usaha yang bergerak di bidang :</br>
+					PPh Pasal 22 Kertas merupakan PPh Pasal 22 yang harus dipungut oleh badan usaha yang bergerak di 
+					bidang industri kertas (produsen kertas).  PPh ini wajib dipungut untuk setiap penjualan kertas di 
+					dalam negeri.</br>	</br>	
 
-					1. industri semen sebesar 0,25 % dari dasar pengenaan pajak (DPP) Pajak Pertambahan Nilai (PPN);</br>
-					2. industri rokok kretek/putih sebesar 0,1 % dari harga bandrol. dan bersifat final;</br>
-					3. industri kertas sebesar 0,1 % dari DPP PPN;</br>
-					4. industri baja sebesar 0,3% dari DPP PPN;</br>
-					5. industri otomotif sebesar 0,45 % dari DPP PPN; </br>
-					
-					yang ditunjuk oleh Kepala Kantor Pelayanan Pajak, atas penjualan hasil produksinya di dalam negeri; </br></br>
-					
-					Bagaimana tata cara pemungutan, penyetoran, dan pelaporan PPh Pasal 22?</br>
-					Badan usaha yang bergerak di bidang industri semen, rokok, kertas, baja dan otomotif yang ditunjuk oleh Kepala Kantor Pelayanan Pajak harus memungut PPh Pasal 22 atas penjualan hasil produksinya di dalam negeri dan wajib menerbitkan Bukti Pemungutan PPh Pasal 22 dalam rangkap tiga, yaitu :</br>
-					1. Lembar pertama untuk pembeli;</br>
-					2. Lembar kedua untuk disampaikan kepada Direktorat Jenderal Pajak sebagai lampiran laporan bulanan;</br>
-					3. Lembar ketiga untuk arsip Pemungut Pajak yang bersangkutan.</br>
-					Badan usaha tersebut harus menyetorkan secara kolektif pemungutan PPh Pasal 22 selambat-lambatnya tanggal lima belas bulan takwim berikutnya setelah Masa Pajak berakhir. Pelaporan dilakukan dengan cara menyampaikan SPT Masa selambat-lambatnya dua puluh hari setelah Masa Pajak berakhir. </br></br>
-			   </form> 
-			</div>
+					Subjek Pemungut</br>	
+
+					Produsen kertas wajib memungut PPh Pasal 22 Kertas apabila yang bersangkutan sudah ditunjuk 
+					sebagai pemungut PPh Pasal 22 oleh KPP tempatnya terdaftar NPWP.  Penunjukan itu dilakukan melalui 
+					penerbitan Surat Keputusan Penunjukan Sebagai Pemungut PPh Pasal 22 (sama seperti industri semen yang
+					sudah diuraikan dalam artikel sebelumnya).</br>	</br>	
+
+					 
+
+					Subjek yang Dipungut</br>	
+
+					Dalam hal ini, pihak yang dikenakan pemungutan PPh Pasal 22 (subjek yang dipungut) adalah para pembeli 
+					kertas yang melakukan pembelian secara langsung kepada produsen kertas.
+
+					Perlu diingat bahwa [embelian kertas yang dikenakan PPh Pasal 22 juga hanya apabila pembelian tersebut 
+					dilakukan di dalam negeri.  Seandainya kita berada di luar negeri dan membeli kertas dari produsen 
+					kertas di Indonesia, yang berarti produsen kertas itu melakukan ekspor, maka kita tentu tidak akan 
+					dikenakan PPh Pasal 22.  Sebab seperti dinyatakan dalam PMK Nomor 154/PMK.03/2010, objek pemungutan 
+					PPh Pasal 22 Kertas adalah penjualan di dalam negeri (bukan terhadap penjualan ekspor).</br></br>	
+
+					 
+
+					Tarif dan DPP</br>	
+
+					PPh Pasal 22 Kertas yang harus dipungut oleh produsen adalah sebesar 0,1% (nol koma satu persen) 
+					dari DPP PPN.  Sesuai dengan ketentuan dan peraturan di bidang PPN, yang dimaksud dengan DPP untuk 
+					BKP seperti halnya kertas adalah Harga Jual.
+
+					Misalnya jika harga jual satu rim kertas HVS Rp 55.000,- dan apabila harga jual itu belum termasuk PPN,
+					berarti PPh Pasal 22 yang dikenakan = 0,1% x Rp 55.000,- atau Rp 55,- untuk setiap satu rim..  Tetapi 
+					jika misalnya harga jual Rp 55.000,- sudah inlcude atau termasuk PPN 10%, maka PPh Pasal 22 yang akan 
+					dikenakan adalah = (100/110 x Rp 55.000,-) x 0,1% = Rp 50,- per satu rim.</br>	
+
+					PPh Pasal 22 tersebut harus kita bayarkan kepada produsen yang menjual kertas yang berarti menambah
+					jumlah utang kita kepada produsen.  Karena dengan ketentuan ini, berarti jumlah yang harus kita (pembeli) 
+					bayar kepada produsen kertas = Harga Jual (+) PPN (+) PPh Pasal 22 Kertas. Inilah makna dari kata 
+					‘dipungut’ PPh Pasal 22.
+					</h2>
+					</div>
+				</div>
 		</div>
 		<div id="right-sidebar" class="col-sm-4">
-			<h5>picture</h5>
+			<h5>Gambar produk PPH 22</h5>
 			<div class="row">
 			<div class="col-sm-6">
 				<div class="hovereffect">
@@ -144,7 +160,6 @@
 			</div>
 		</div>
 	</div>
-	
 			<hr style="background-color: red;">
 			Developer; 2018, Riska Lestari</p>
 			<p>163210009</p>

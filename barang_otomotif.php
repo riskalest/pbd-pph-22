@@ -45,9 +45,11 @@
 			  <ul class="nav navbar-nav">
 				<li class="active"><a href="tentang_pph22.php">Tentang PPH 22 <span class="sr-only">(current)</span></a></li>
 				<li class="dropdown">
-				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PPH 22 hasil produksi <span class="caret"></span></a>
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PPH 22 hasil produksi<span class="caret"></span></a>
 				  <ul class="dropdown-menu">
 					<li><a href="ratepajak.php">Tarif PPH 22</a></li>
+					<li><a href="laporan_perhitungan.php">Laporan perhitungan</a></li>
+					<li><a href="barang_otomotif.php">Lain-lain</a></li>
 				  </ul>
 				</li>
 			  </ul>
@@ -63,45 +65,33 @@
 	</div>
 	<div class="container">
 		<div id="main-content" class="col-sm-8">
-			<h3>Apa itu PPH 22?</h3>
-			<div style="padding:0px;overflow:auto;width:auto;height:300px;border:2px solid grey" >
-			   <form method="post" action="login_proses.php">
-					Pajak Penghasilan Pasal 22 </br>
-					Apa yang dimaksud dengan PPh Pasal 22? </br>
-					Pajak Penghasilan Pasal 22 adalah pajak yang dipungut oleh bendaharawan pemerintah, sehubungan dengan pembayaran atas penyerahan barang dan badan-badan tertentu untuk memungut pajak dari Wajib Pajak yang melakukan kegiatan di bidang impor atau kegiatan usaha di bidang lain.</br>
-					Pemungutan pajak berdasarkan ketentuan ini, dimaksudkan untuk meningkatkan peran serta masyrakat dalam pengumpulan dana melalui sistem pembayaran pajak dan untuk tujuan kesederhanaan, kemudahan, dan pengenaan pajak yang tepat waktu.</br>
-					Dalam hubungan ini, Menteri Keuangan menetapkan besarnya pungutan yang dapat bersifat final. Pelaksanaan ketentuan ini ditetapkan oleh Menteri Keuangan dengan mempertimbangkan antara lain:</br>
-					Penunjukkan pemungut pajak secara selektif, demi pelaksanaan pemungutan pajak secara efektif dan efisien,</br>
-					Tidak mengganggu kelancaran lalu lintas barang;</br>
-					Prosedur pemungutan, penyetoran, dan pelaporan yang sederhana sehingga mudah dilaksanakan.</br></br>
-					
-					Siapa pemungut PPh Pasal 22?</br>
+		<div class="hovereffect">
+					<img class="img-responsive" src="otomotif.jpg" width="100%" alt="">
+					<div class="overlay">
+					<h2>
+					PPh Pasal 22 Otomotif</br>
 
-					1. Badan usaha yang bergerak di bidang industri semen, industri rokok, industri kertas, industri baja dan industri otomotif, yang ditunjuk oleh Kepala Kantor Pelayanan Pajak, atas penjualan hasil produksinya di dalam negeri;</br>
-					2. Pertamina dan badan usaha selain Pertamina yang bergerak di bidang bahan bakar minyak jenis premix dan gas, atas penjualan hasil produksinya;</br></br>
-					
-					Berapakah besarnya pungutan PPh Pasal 22 atas penjualan hasil produksi yang dilakukan badan usaha yang bergerak di bidang industri semen, rokok kretek/ putih, kertas, baja otomotif ?</br>
-					Atas penjualan hasil produksi yang dilakukan oleh badan usaha yang bergerak di bidang :</br>
+					PPh Pasal 22 Otomotif adalah PPh yang dipungut terhadap penjualan kendaraan bermotor beroda dua (2) atau lebih, di dalam negeri yang dilakukan oleh badan usaha yang bergerak di bidang industri otomotif.  Melalui PER-57/PJ./2010 tanggal 10 Desember 2010, Dirjen Pajak menegaskan bahwa yang termasuk sebagai industri otomotif tersebut adalah ATPM (agen tunggal pemegang merek), APM (agen pemegang merek) dan importir umum kendaraan bermotor.</br></br>
 
-					1. industri semen sebesar 0,25 % dari dasar pengenaan pajak (DPP) Pajak Pertambahan Nilai (PPN);</br>
-					2. industri rokok kretek/putih sebesar 0,1 % dari harga bandrol. dan bersifat final;</br>
-					3. industri kertas sebesar 0,1 % dari DPP PPN;</br>
-					4. industri baja sebesar 0,3% dari DPP PPN;</br>
-					5. industri otomotif sebesar 0,45 % dari DPP PPN; </br>
-					
-					yang ditunjuk oleh Kepala Kantor Pelayanan Pajak, atas penjualan hasil produksinya di dalam negeri; </br></br>
-					
-					Bagaimana tata cara pemungutan, penyetoran, dan pelaporan PPh Pasal 22?</br>
-					Badan usaha yang bergerak di bidang industri semen, rokok, kertas, baja dan otomotif yang ditunjuk oleh Kepala Kantor Pelayanan Pajak harus memungut PPh Pasal 22 atas penjualan hasil produksinya di dalam negeri dan wajib menerbitkan Bukti Pemungutan PPh Pasal 22 dalam rangkap tiga, yaitu :</br>
-					1. Lembar pertama untuk pembeli;</br>
-					2. Lembar kedua untuk disampaikan kepada Direktorat Jenderal Pajak sebagai lampiran laporan bulanan;</br>
-					3. Lembar ketiga untuk arsip Pemungut Pajak yang bersangkutan.</br>
-					Badan usaha tersebut harus menyetorkan secara kolektif pemungutan PPh Pasal 22 selambat-lambatnya tanggal lima belas bulan takwim berikutnya setelah Masa Pajak berakhir. Pelaporan dilakukan dengan cara menyampaikan SPT Masa selambat-lambatnya dua puluh hari setelah Masa Pajak berakhir. </br></br>
-			   </form> 
-			</div>
+					Subjek Pemungut</br>
+
+					Sesuai dengan ketentuan yang berlaku, industri otomotif—termasuk ATPM, APM dan importir umum kendaraan bermotor—merupakan subjek yang wajib memungut PPh Pasal 22 atas penjualan kendaraan bermotor.
+
+					Penunjukkan sebagai pemungut PPh Pasal 22 tersebut dilakukan melalui penerbitan Surat Keputusan Penunjukan Sebagai Pemungut PPh Pasal 22 oleh Kepala KPP tempat industri otomotif tersebut terdaftar NPWP.  Industri otomotif yang sudah mendapat SK penunjukkan dari Kepala KPP selanjutnya wajib memungut, menyetor dan melaporkan PPh Pasal 22 terhadap setiap penjualan kendaraan bermotor roda dua atau lebih yang dilakukan di dalam negeri.</br></br>
+
+					Subjek yang Dipungut</br>
+
+					Dalam hal ini subjek yang dikenakan (dipungut) PPh Pasal 22 adalah para pembeli kendaraan bermotor yang membeli kendaraan bermotor dari industri otomotif yang sudah ditunjuk sebagai pemungut PPh Pasal 22 Otomotif.</br></br>
+
+					Tarif dan DPP</br>
+
+					PPh Pasal 22 Otomotif yang harus dibayar pembeli kepada pemungut PPh Pasal 22 tersebut sebesar 0,45% dari DPP PPN (harga jual yang belum termasuk PPN). Misalkan kita membeli mobil dari ATPM seharga Rp 250.000.000,- di mana harga jual mobil itu belum termasuk PPN (10%) dan PPn-BM (40%).  Dengan demikian, PPh Pasal 22 yang harus yang harus kita bayar kepada ATPM tersebut adalah = 0,45% x Rp 250.000.000,- atau sebesar Rp 1.125.000,-.
+					</h2>
+					</div>
+				</div>
 		</div>
 		<div id="right-sidebar" class="col-sm-4">
-			<h5>picture</h5>
+			<h5>Gambar produk PPH 22</h5>
 			<div class="row">
 			<div class="col-sm-6">
 				<div class="hovereffect">
@@ -144,7 +134,6 @@
 			</div>
 		</div>
 	</div>
-	
 			<hr style="background-color: red;">
 			Developer; 2018, Riska Lestari</p>
 			<p>163210009</p>

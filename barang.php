@@ -46,10 +46,9 @@
 			  <ul class="nav navbar-nav">
 				<li class="active"><a href="tentang_pph22.php">Tentang PPH 22 <span class="sr-only">(current)</span></a></li>
 				<li class="dropdown">
-				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PPH 22 hasil produksi<span class="caret"></span></a>
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PPH 22 hasil produksi <span class="caret"></span></a>
 				  <ul class="dropdown-menu">
 					<li><a href="ratepajak.php">Tarif PPH 22</a></li>
-					<li><a href="laporan_perhitungan.php">Laporan perhitungan</a></li>
 				  </ul>
 				</li>
 			  </ul>
@@ -65,46 +64,83 @@
 	</div>
 	<div class="container">
 		<div id="main-content" class="col-sm-12">
-			<h4>Hasil Perhitungan PPH 22 Hasil Produksi:</h4>
-				<form action="" method="post">
-				PPH 22 Hasil produksi adalah pajak yang dikenakan untuk barang hasil produksi.</br></br>
+			<h3>HITUNG</h3>
+			<script src="code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+			  <script type="text/javascript">
+				$(document).ready(function(){
+					var ppn  = parseInt($("#ppn").val());
+					var ratepajak  = parseInt($("#ratepajak").val());
+					var hargabruto  = parseInt($("#hargabruto").val());
+					var total =((ppn*hargabruto)/100);
+					$("#pph22").val(total);
+				  });
+				});
+			  </script> 
+			  
+			<form method="post" action="proses_barang.php" >
 			<?php
-			$nama_barang = "";
-			if(isset($_POST["nama_barang"]))
-				$nama_barang = $_POST["nama_barang"];
-				
+			$idbarang = $_GET["idbarang"];
 			include "koneksi.php";
-			$sql = "select * from hitung";
+			$sql = "select * from barang where idbarang = '$idbarang'";
 			$hasil = mysqli_query($kon, $sql);
-			if(!$hasil)
-				die("Gagal query..". mysqli_error($kon));
+			if(!$hasil) die("Gagal query...");
+
+			$data = mysqli_fetch_array($hasil);
+			$nmbarang = $data["nmbarang"];
+			$ppn = $data["ppn"];
+			$ratepajak = $data["ratepajak"];
+			$hargabruto = $data["hargabruto"];
 			?>
-			   <form action="" method="post">
-			<table border="3" class="table table-hover">
-				<tr>
-				<th>Nama Barang</th>
-				<th>PPN</th>
-				<th>Rate Pajak</th>
-				<th>Satuan</th>
-				<th>Harga Bruto</th>
-				<th>PPH22</th>
-				<th>Tanggal</th>				
-				</tr>
-				<?php
-					$no = 0;
-					while($row = mysqli_fetch_assoc($hasil)){
-						echo " <tr> ";
-						echo " <td> ".$row['nmbarang']." </td> ";
-						echo " <td> ".$row['ppn']." </td> ";
-						echo " <td> ".$row['ratepajak']." </td> ";
-						echo " <td> ".$row['satuan']." </td> ";
-						echo " <td> ".$row['hargabruto']." </td> ";
-						echo " <td> ".$row['pph22']." </td> ";
-						echo " <td> ".$row['tanggal']." </td> ";
-						echo " </tr> ";
-					}
-				?>
-			</table>
+			<form class="form-horizontal">
+			<div class="form-group">
+			<div class="col-sm-6">
+				<label for="namaBarang" class="col-sm-4 control-label">Nama Barang</label>
+					<div class="col-sm-5">
+					  <input type="text" class="form-control" id="namaBRG" name="nmbarang" value="<?=$nmbarang;?>" readonly/>
+					</div>
+			</div>	
+			<div class="col-sm-6">
+				<label for="ppN" class="col-sm-4 control-label">PPN</label>
+					<div class="col-sm-5">
+					  <input type="text" class="form-control" placeholder="pajak" id="ppn" name="ppn">
+					</div>
+			</div>
+			</div> </br> </br></br>
+			<div class="form-group">
+			<div class="col-sm-6">
+				<label for="ratePajak" class="col-sm-4 control-label">Rate Pajak</label>
+					<div class="col-sm-5">
+					  <input type="text" class="form-control"   name="ratepajak" id="ratepajak" value="<?=$ratepajak;?>" readonly/>
+					</div></br>
+			</div>	
+			<div class="col-sm-6">
+				<label for="hargaBruto" class="col-sm-4 control-label">Harga Bruto</label>
+					<div class="col-sm-5">
+					  <input type="text" class="form-control" placeholder="harga" id="hargabruto" name="hargabruto">
+					</div>
+			</div>
+			</div></br> </br></br>
+			<div class="form-group">
+			<div class="col-sm-6">
+				<label for="satuan" class="col-sm-4 control-label">Jumlah</label>
+					<div class="col-sm-5">
+					  <input type="text" class="form-control"  placeholder="jumlah satuan" name="satuan" id="satuan" > 
+					  <label for="satuan" class="control-label">*Rim/Zak/Kg/per</label>
+					</div>
+			</div>	
+			</div></br> </br></br>
+			<div class="form-group">
+			<div class="col-sm-6">
+				<div class="col-sm-offset-9 col-sm-3">
+					  <button type="submit" name="proses" class="btn btn-primary">HITUNG</button>
+					</div>
+			</div>	
+			<div class="col-sm-6">
+				<div class="col-sm-offset-1 col-sm-11">
+					  <button type="reset" name="hapus" class="btn btn-primary">RESET</button>
+					</div>
+			</div>
+			</div></br> </br></br>
 			</form>
 		</div>
 	</div>

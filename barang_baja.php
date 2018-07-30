@@ -45,9 +45,11 @@
 			  <ul class="nav navbar-nav">
 				<li class="active"><a href="tentang_pph22.php">Tentang PPH 22 <span class="sr-only">(current)</span></a></li>
 				<li class="dropdown">
-				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PPH 22 hasil produksi <span class="caret"></span></a>
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PPH 22 hasil produksi<span class="caret"></span></a>
 				  <ul class="dropdown-menu">
 					<li><a href="ratepajak.php">Tarif PPH 22</a></li>
+					<li><a href="laporan_perhitungan.php">Laporan perhitungan</a></li>
+					<li><a href="barang_baja.php">Lain-lain</a></li>
 				  </ul>
 				</li>
 			  </ul>
@@ -63,45 +65,41 @@
 	</div>
 	<div class="container">
 		<div id="main-content" class="col-sm-8">
-			<h3>Apa itu PPH 22?</h3>
-			<div style="padding:0px;overflow:auto;width:auto;height:300px;border:2px solid grey" >
-			   <form method="post" action="login_proses.php">
-					Pajak Penghasilan Pasal 22 </br>
-					Apa yang dimaksud dengan PPh Pasal 22? </br>
-					Pajak Penghasilan Pasal 22 adalah pajak yang dipungut oleh bendaharawan pemerintah, sehubungan dengan pembayaran atas penyerahan barang dan badan-badan tertentu untuk memungut pajak dari Wajib Pajak yang melakukan kegiatan di bidang impor atau kegiatan usaha di bidang lain.</br>
-					Pemungutan pajak berdasarkan ketentuan ini, dimaksudkan untuk meningkatkan peran serta masyrakat dalam pengumpulan dana melalui sistem pembayaran pajak dan untuk tujuan kesederhanaan, kemudahan, dan pengenaan pajak yang tepat waktu.</br>
-					Dalam hubungan ini, Menteri Keuangan menetapkan besarnya pungutan yang dapat bersifat final. Pelaksanaan ketentuan ini ditetapkan oleh Menteri Keuangan dengan mempertimbangkan antara lain:</br>
-					Penunjukkan pemungut pajak secara selektif, demi pelaksanaan pemungutan pajak secara efektif dan efisien,</br>
-					Tidak mengganggu kelancaran lalu lintas barang;</br>
-					Prosedur pemungutan, penyetoran, dan pelaporan yang sederhana sehingga mudah dilaksanakan.</br></br>
+		<div class="hovereffect">
+					<img class="img-responsive" src="baja.jpg" width="100%" alt="">
+					<div class="overlay">
+					<h2>
 					
-					Siapa pemungut PPh Pasal 22?</br>
+					PPh Pasal 22 Baja</br>
 
-					1. Badan usaha yang bergerak di bidang industri semen, industri rokok, industri kertas, industri baja dan industri otomotif, yang ditunjuk oleh Kepala Kantor Pelayanan Pajak, atas penjualan hasil produksinya di dalam negeri;</br>
-					2. Pertamina dan badan usaha selain Pertamina yang bergerak di bidang bahan bakar minyak jenis premix dan gas, atas penjualan hasil produksinya;</br></br>
-					
-					Berapakah besarnya pungutan PPh Pasal 22 atas penjualan hasil produksi yang dilakukan badan usaha yang bergerak di bidang industri semen, rokok kretek/ putih, kertas, baja otomotif ?</br>
-					Atas penjualan hasil produksi yang dilakukan oleh badan usaha yang bergerak di bidang :</br>
+					PPh Pasal 22 Baja adalah PPh yang dikenakan atas penjualan baja di dalam negeri yang dilakukan oleh badan usaha yang bergerak di bidang usaha industri baja (produsen baja).
 
-					1. industri semen sebesar 0,25 % dari dasar pengenaan pajak (DPP) Pajak Pertambahan Nilai (PPN);</br>
-					2. industri rokok kretek/putih sebesar 0,1 % dari harga bandrol. dan bersifat final;</br>
-					3. industri kertas sebesar 0,1 % dari DPP PPN;</br>
-					4. industri baja sebesar 0,3% dari DPP PPN;</br>
-					5. industri otomotif sebesar 0,45 % dari DPP PPN; </br>
-					
-					yang ditunjuk oleh Kepala Kantor Pelayanan Pajak, atas penjualan hasil produksinya di dalam negeri; </br></br>
-					
-					Bagaimana tata cara pemungutan, penyetoran, dan pelaporan PPh Pasal 22?</br>
-					Badan usaha yang bergerak di bidang industri semen, rokok, kertas, baja dan otomotif yang ditunjuk oleh Kepala Kantor Pelayanan Pajak harus memungut PPh Pasal 22 atas penjualan hasil produksinya di dalam negeri dan wajib menerbitkan Bukti Pemungutan PPh Pasal 22 dalam rangkap tiga, yaitu :</br>
-					1. Lembar pertama untuk pembeli;</br>
-					2. Lembar kedua untuk disampaikan kepada Direktorat Jenderal Pajak sebagai lampiran laporan bulanan;</br>
-					3. Lembar ketiga untuk arsip Pemungut Pajak yang bersangkutan.</br>
-					Badan usaha tersebut harus menyetorkan secara kolektif pemungutan PPh Pasal 22 selambat-lambatnya tanggal lima belas bulan takwim berikutnya setelah Masa Pajak berakhir. Pelaporan dilakukan dengan cara menyampaikan SPT Masa selambat-lambatnya dua puluh hari setelah Masa Pajak berakhir. </br></br>
-			   </form> 
-			</div>
+					Dalam Peraturan Dirjen Pajak Nomor 57/PJ/2010 tanggal 10 Desember 2010 dijelaskan bahwa yang dimaksud dengan produsen baja dalam hal ini adalah industri baja yang merupakan industri hulu. Jika dalam kegiatan operasionalnya industri hulu itu mengolah atau memproses lebih lanjut sebagian atau seluruh hasil produksinya menjadi produk antara maupun produk hilir (kegiatan produksinya integrated), maka PPh Pasal 22 harus dipungut atas penjualan produk hulu, produk antara, dan produk hilir.
+
+					Dirjen Pajak, melalui SE-05/PJ.43/1996 tanggal 15 Januari 1996, pernah menjelaskan bahwa yang dimaksud dengan produk hulu adalah produk yang dihasilkan oleh industri hulu seperti: besi spons, slab baja, bloom, dan bilet baja.  Sedangkan yang dimaksud produk antara adalah produk yang dihasilkan oleh industri hulu maupun industri antara seperti: batang kawat baja (wire rod), kawat tali baja (wire rope), kawat baja (steel wire), baja batangan (shafting bar), pelat baja canai panas 
+					gulungan/lembaran (hot rolled coil/plate), pelat baja canai dingin gulungan/lembaran (cold rolled coil/plate), pipa las lurus, pipa las spiral, dlsb.  Sementara yang dimaksud dengan produk hilir adalah produk yang dapat dipakai langsung tanpa diproses lebih lanjut yang dibuat dari bahan baku produk hulu maupun produk antara.</br></br>
+
+					 
+
+					Subjek Pemungut</br>
+
+					Subjek yang ditunjuk sebagai pemungut PPh Pasal 22 Baja adalah produsen baja yang termasuk dalam kelompok industri hulu.  Penunjukan sebagai pemungut ini dilakukan melalui penerbitan Surat Keputusan Sebagai Pemungut PPh Pasal 22 oleh Kepala KPP tempat produsen tersebut terdaftar NPWP.
+
+					Setelah mendapat SK dari Kepala KPP tersebut, produsen baja selanjutnya wajib untuk memungut, menyetorkan dan melaporkan PPh Pasal 22 Baja untuk setiap penjualan hasil produksinya (produk hulu, produk antara maupun produk hilir) di dalam negeri.</br></br>					 
+
+					Subjek yang Dipungut</br>
+
+					Subjek yang dikenakan (dipungut) PPh Pasal 22 adalah pembeli baja yang melakukan pembelian langsung kepada produsen baja yang sudah ditunjuk menjadi pemungut PPh Pasal 22 oleh Kepala KPP.  Jadi pada saat membayar kepada produsen baja, harga yang harus dibayar adalah harga beli, PPN dan PPh Pasal 22 Baja.</br></br>
+
+					Tarif dan DPP</br>
+
+					PPh Pasal 22 Baja yang harus dibayar oleh pembeli baja adalah sebesar 0,3% dari DPP PPN (harga jual).  Jika misalnya harga jual baja yang kita beli Rp 100.000.000,- belum termasuk PPN, maka besarnya PPh Pasal 22 Baja yang dikenakan adalah = 0,3% x Rp 100.000.000,- = Rp 300.000,-.  Tapi jika harga jual yang Rp 100.000.000,- itu sudah termasuk PPN, maka PPh Pasal 22 Baja yang harus dibayar adalah = (Rp 100.000.000,- x 100/110) x 0,3% = Rp 272.727,27.
+					</h2>
+					</div>
+				</div>
 		</div>
 		<div id="right-sidebar" class="col-sm-4">
-			<h5>picture</h5>
+			<h5>Gambar produk PPH 22</h5>
 			<div class="row">
 			<div class="col-sm-6">
 				<div class="hovereffect">
@@ -144,7 +142,6 @@
 			</div>
 		</div>
 	</div>
-	
 			<hr style="background-color: red;">
 			Developer; 2018, Riska Lestari</p>
 			<p>163210009</p>
