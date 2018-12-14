@@ -41,70 +41,70 @@ http://igos.co.id/XAMPP#Lisensi
 
 == 07 Mei 2018 ==
 
-* Membuat form input pengguna
-  ## index.php
-* Memebuat form untuk perhitungan serta membuat template
-  ## barang.php
-  ## style.php
-  ## template_atas.php
-  ## template_bawah.php
+## Membuat form input pengguna
+  * index.php
+## Memebuat form untuk perhitungan serta membuat template
+  * barang.php
+  * style.php
+  * template_atas.php
+  * template_bawah.php
 
 == 21 Mei 2018 ==
 
-* Memasukkan data perhitungan PPN 22 ke database
-  ## simpan_barang.php
-* Menambah tombol simpan pada file barang
-  ## barang.php
+## Memasukkan data perhitungan PPN 22 ke database
+  * simpan_barang.php
+## Menambah tombol simpan pada file barang
+  * barang.php
 
 == 28 Mei 2018 ==
 
-* Mengatur CSS
-  ## atyle.css
-* Menambah link menu 
-  ## pph22.php 
-  ## template_atas.php
+## Mengatur CSS
+  * atyle.css
+## Menambah link menu 
+  * pph22.php 
+  * template_atas.php
 
 == 04 Juni 2018 ==
 
-* Menghitung PPH 22
-  ## barang.php
-* Mengambil data dari database
-  ## ratepajak.php
+## Menghitung PPH 22
+  * barang.php
+## Mengambil data dari database
+  * ratepajak.php
 
 
 == 25 Juni 2018 ==
 
-* Menghitung PPH 22
-  ## barang.php
-  ## simpan.php
-  ## proses_barang.php
-  ## barang_simpan.php
+# Menghitung PPH 22
+  * barang.php
+  * simpan.php
+  * proses_barang.php
+  * barang_simpan.php
   
-* Mengambil data dari database
-  ## ratepajak.php
+## Mengambil data dari database
+  * ratepajak.php
   
-* Menambahkan animasi tampilan web
-  ## animasi.gif
-  ## kalkulator.gif
+## Menambahkan animasi tampilan web
+  * animasi.gif
+  * kalkulator.gif
 
-* Menambah tabel untuk menyimpan data perhitungan
-  ## koneksi.php
+## Menambah tabel untuk menyimpan data perhitungan
+  * koneksi.php
   
-* Mengambil data seluruh perhitungan yang telah dilakukan dari database untuk laporan 
-  ## laporan_perhitungan.php
+## Mengambil data seluruh perhitungan yang telah dilakukan dari database untuk laporan 
+  * laporan_perhitungan.php
   
   == 02 Juli 2018 ==
 
-* Menghitung PPH 22
-  ## barang.php
-  ## simpan.php
-  ## proses_barang.php
-  ## barang_simpan.php
+## Menghitung PPH 22
+  * barang.php
+  * simpan.php
+  * proses_barang.php
+  * barang_simpan.php
   
   
   == 30 Juli 2018 ==
 
-* Mengupdate program perhitungan
-  ## pada program yang diupdate ini saya menggunakan php, dengan boostrap, serta javascript. Sehingga saya menambahkan file : 
-  ## jquery.min
-  ## serta folder boostrap
+## Mengupdate program perhitungan
+  * pada program yang diupdate ini saya menggunakan php, dengan boostrap, serta javascript. Sehingga saya menambahkan file : 
+  * jquery.min
+  * serta folder boostrap
